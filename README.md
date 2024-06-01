@@ -20,10 +20,12 @@ CanonMart adalah aplikasi yang khusus menyediakan produk-produk merek Canon, mul
 - Profile : setelah membeli barang saya menyiapkan saldo agar lebih real untuk aplikasi ecommerce, dimana jika sudah membeli maka saldonya berkurang, dan bisa melihat histori pesanan yang sudah dibeli serta mengatur tema yang diinginkan dan juga jika ingin mengupdate informasi maka ada setingan akun jika ingin mengupdate informasi.
 
 ## Teknologi
-SQLite : digunakan untuk menyimpan data pengguna dan informasi terkait aplikasi lainnya.
-Retrofit : untuk pengambilan API
-Androdi Studio : untuk pengembangan Aplikasi
-Lottie : Untuk progressbar
+- SQLite : digunakan untuk menyimpan data pengguna dan informasi terkait aplikasi lainnya.
+- Retrofit : untuk pengambilan API
+- Android Studio : untuk pengembangan Aplikasi
+- Lottie : Untuk progressbar
+- SharedPreferences: Untuk penyimpanan data kecil yang persisten.
+- CardView: Untuk menampilkan data dalam bentuk kartu dengan tata letak yang menarik.
 
 ## Authors
 [@dead.al](https://www.instagram.com/@dead.al/)
