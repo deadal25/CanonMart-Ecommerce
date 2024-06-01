@@ -1,0 +1,125 @@
+<!-- item_order.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scrollbars="vertical"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/rocknroll_one"
+                        android:text="Product Name "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/quantityTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/rocknroll_one"
+                        android:text="Quantity: 1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/totalPriceTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/rocknroll_one"
+                        android:text="Price: $10.00"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/productImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/placeholder_image" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/productImageView"-->
+    <!--        android:layout_width="80dp"-->
+    <!--        android:layout_height="80dp"-->
+    <!--        android:src="@drawable/placeholder_image"-->
+    <!--    android:layout_margin="8dp"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_marginStart="8dp">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/nameTextView"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Product Name"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:layout_marginTop="8dp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/quantityTextView"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Quantity: 1"-->
+    <!--            android:textSize="14sp"-->
+    <!--            android:layout_marginTop="4dp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/totalPriceTextView"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Price: $10.00"-->
+    <!--            android:textSize="14sp"-->
+    <!--            android:layout_marginTop="4dp"/>-->
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

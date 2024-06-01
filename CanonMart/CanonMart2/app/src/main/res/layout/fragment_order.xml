@@ -1,0 +1,89 @@
+<!-- fragment_order.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Pesanan Saya"
+                android:fontFamily="@font/rocknroll_one"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/deleteOrderButton"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:contentDescription="Delete Order"
+                android:focusable="true"
+                android:onClick="deleteOrder"
+                android:padding="20dp"
+                android:src="@drawable/baseline_delete_24" />
+
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/cart_button"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+            <!--                android:src="@drawable/ic_cart_dark"-->
+            <!--                android:contentDescription="Cart"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:layout_toStartOf="@id/favorites_button"/>-->
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orderRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/totalPriceTextView"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="35dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/PesananTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/rocknroll_one"
+        android:gravity="center"
+        android:text="Histori Pesanan Kosong"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Total Price: $0.00"
+        android:textSize="18sp" />
+
+</RelativeLayout>

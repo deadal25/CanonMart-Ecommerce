@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="merah">#FF0000</color> <!-- Red for Favorites -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orens">#FF5722</color>
+    <color name="blue">#0A5D9F</color>
+    <color name="red">#4A38C7</color>
+</resources>
