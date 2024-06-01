@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.canonmart.db.UserDBHelper;
 import com.example.canonmart.R;
 
+
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText editTextUsername, editTextPassword;
