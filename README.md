@@ -1,1 +1,1 @@
-# TechnoMart-Ecommerce
+# CanonoMart-Ecommerce
