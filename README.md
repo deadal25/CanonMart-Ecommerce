@@ -30,6 +30,6 @@ Lottie : Untuk progressbar
 
 ## Api
 
-[Api CanonMart] (https://api.bestbuy.com/v1/products(manufacturer=canon&salePrice%3C1000)?format=json&show=sku,name,salePrice,image,longDescription&apiKey=GnOHjdEh0feKXImgF1k9sev3)
+[Api CanonMart](https://api.bestbuy.com/v1/products(manufacturer=canon&salePrice%3C1000)?format=json&show=sku,name,salePrice,image,longDescription&apiKey=GnOHjdEh0feKXImgF1k9sev3)
 
 
