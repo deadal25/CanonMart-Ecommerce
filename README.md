@@ -1,1 +1,1 @@
-# CanonoMart-Ecommerce
+# CanonMart-Ecommerce
