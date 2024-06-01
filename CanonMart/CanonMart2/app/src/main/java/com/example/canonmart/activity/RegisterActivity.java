@@ -37,7 +37,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "Silahkan mengisi Username dan Password", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (username.length() <= 3) {
+                if (username.length() < 3) {
                     Toast.makeText(RegisterActivity.this, "Username harus lebih dari 3 karakter", Toast.LENGTH_SHORT).show();
                     return;
                 }
