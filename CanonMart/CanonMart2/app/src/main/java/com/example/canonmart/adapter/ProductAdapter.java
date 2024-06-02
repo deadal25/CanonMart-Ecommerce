@@ -54,8 +54,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
         holder.productSkuTextView.setText("SKU: " + product.getSku());
 
         // Tampilkan ProgressBar dan sembunyikan ImageView saat gambar sedang dimuat
-        holder.productProgressBar.setVisibility(View.VISIBLE);
-        holder.productImageView.setVisibility(View.GONE);
+        holder.productProgressBar.setVisibility(View.GONE);
+        holder.productImageView.setVisibility(View.VISIBLE);
 
         Picasso.get().load(product.getImage()).into(holder.productImageView, new Callback() {
             @Override
