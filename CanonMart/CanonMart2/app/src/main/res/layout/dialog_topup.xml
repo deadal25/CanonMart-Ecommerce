@@ -9,6 +9,7 @@
         android:id="@+id/inputAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/rocknroll_one"
         android:hint="Masukkan jumlah top up"
         android:inputType="number" />
 
