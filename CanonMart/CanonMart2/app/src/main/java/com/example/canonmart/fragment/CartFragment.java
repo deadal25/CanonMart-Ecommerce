@@ -185,7 +185,7 @@ public class CartFragment extends Fragment implements CartAdapter.OnQuantityChan
 
         new AlertDialog.Builder(getContext())
                 .setTitle("Konfirmasi Pembelian")
-                .setMessage("Apakah Kamu ingin Mencheckout produk ini?")
+                .setMessage("Apakah Anda benar-benar ingin membeli produk ini?")
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         saveCheckoutItems();
